@@ -1,5 +1,68 @@
 @import "./brictson-reset.css";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    --font-small: 0.833rem;
+    color: #222222;
+}
+
+body {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 20px 0 0 0;
+}
+
+nav .btn {
+    padding: 5px 0;
+}
+
+#sidebar {
+    padding: 40px 20px;
+}
+
+#add-task {
+    color: #e84855;
+}
+
+#projects .btn {
+    margin-left: 20px;
+}
+
+#app {
+    padding: 60px;
+}
 
 .task {
-    background-color: red;
+    width: max-content;
+    padding: 20px;
+    border: 2px solid #757575;
+    border-radius: 15px;
+}
+
+.description,
+.due-date,
+.project {
+    font-size: var(--font-small);
+}
+
+.description {
+    color: #757575;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    background: none;
+    border: none;
 }

@@ -17,15 +17,19 @@ export default class TodoItem {
         description.innerText = this.todo.description;
         li.appendChild(description);
 
+        const info = document.createElement("div");
+        info.classList.add("info");
+        li.appendChild(info);
+
         const dueDate = document.createElement("div");
         dueDate.classList.add("due-date");
         dueDate.innerText = this.todo.dueDate;
-        li.appendChild(dueDate);
+        info.appendChild(dueDate);
 
         const project = document.createElement("div");
         project.classList.add("project");
         project.innerText = this.todo.project;
-        li.appendChild(project);
+        info.appendChild(project);
 
         return li;
     }

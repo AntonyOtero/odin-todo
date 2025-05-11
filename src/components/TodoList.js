@@ -7,6 +7,7 @@ export default class TodoList {
 
     render() {
         const ul = document.createElement("ul");
+        ul.setAttribute("role", "list");
         this.todos.forEach(todo => {
             const item = new TodoItem(todo);
             ul.appendChild(item.render());

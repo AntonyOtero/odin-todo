@@ -7,7 +7,7 @@ export default class App {
                 id: crypto.randomUUID(),
                 title: "Example Task",
                 description: "Here is a more detailed context of the task.",
-                dueDate: "05-11-2025",
+                dueDate: "Dec 8",
                 priority: "P1",
                 project: "inbox",
                 completed: false,
