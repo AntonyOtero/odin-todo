@@ -1,1 +1,5 @@
 @import "./brictson-reset.css";
+
+.task {
+    background-color: red;
+}
