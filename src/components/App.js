@@ -6,6 +6,10 @@ export default class App {
             {
                 id: crypto.randomUUID(),
                 title: "Example Task",
+                description: "Here is a more detailed context of the task.",
+                dueDate: "05-11-2025",
+                priority: "P1",
+                project: "inbox",
                 completed: false,
             },
         ];
@@ -14,7 +18,11 @@ export default class App {
     addTodo = (title) => {
         const todo = {
             id: crypto.randomUUID(),
-            title,
+            title: "Example Task",
+            description,
+            dueDate,
+            priority,
+            project,
             completed: false,
         }
         this.todos.push(todo);
