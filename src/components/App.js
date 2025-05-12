@@ -12,6 +12,42 @@ export default class App {
                 project: "inbox",
                 completed: false,
             },
+            {
+                id: crypto.randomUUID(),
+                title: "Example Task",
+                description: "Here is a more detailed context of the task.",
+                dueDate: "Dec 8",
+                priority: "P4",
+                project: "inbox",
+                completed: false,
+            },
+            {
+                id: crypto.randomUUID(),
+                title: "Example Task",
+                description: "Here is a more detailed context of the task.",
+                dueDate: "Dec 8",
+                priority: "P2",
+                project: "inbox",
+                completed: false,
+            },
+            {
+                id: crypto.randomUUID(),
+                title: "Example Task",
+                description: "Here is a more detailed context of the task.",
+                dueDate: "Dec 8",
+                priority: "P3",
+                project: "inbox",
+                completed: false,
+            },
+            {
+                id: crypto.randomUUID(),
+                title: "Example Task",
+                description: "Here is a more detailed context of the task.",
+                dueDate: "Dec 8",
+                priority: "P4",
+                project: "inbox",
+                completed: false,
+            },
         ];
     }
 

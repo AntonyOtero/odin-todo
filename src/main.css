@@ -14,11 +14,17 @@
     --font-small: 0.833rem;
     --font-xsmall: 0.694rem;
     --color-copy: #222222;
+    --color-bg: #fff;
+    --color-p1: #F03A47;
+    --color-p2: #FFC145;
+    --color-p3: #009DDC;
+    --color-p4: #2A2D34;
 }
 
 body {
     display: flex;
     color: var(--color-copy);
+    background-color: var(--color-bg);
 }
 
 nav {
@@ -37,7 +43,7 @@ nav .btn {
 }
 
 #add-task {
-    color: #e84855;
+    color: var(--color-p1);
 }
 
 #projects .btn {
@@ -51,7 +57,7 @@ nav .btn {
 .task {
     width: max-content;
     padding: 20px;
-    border: 2px solid #757575;
+    margin: 20px 0;
     border-radius: 15px;
 }
 
@@ -74,4 +80,20 @@ nav .btn {
     background: none;
     border: none;
     cursor: pointer;
+}
+
+.P1 {
+    border: 2px solid var(--color-p1);
+}
+
+.P2 {
+    border: 2px solid var(--color-p2);
+}
+
+.P3 {
+    border: 2px solid var(--color-p3);
+}
+
+.P4 {
+    border: 2px solid var(--color-p4);
 }

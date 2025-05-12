@@ -5,7 +5,7 @@ export default class TodoItem {
 
     render() {
         const li = document.createElement("li");
-        li.classList.add("task");
+        li.classList.add("task", this.todo.priority);
 
         const title = document.createElement("div");
         title.classList.add("title");
